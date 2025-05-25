@@ -14,16 +14,16 @@ Este projeto implementa uma API intermediária em Node.js para consultar dados d
 
 ## Tecnologias utilizadas
 
-* **Node.js:** Ambiente de execução JavaScript.
-* **Express.js:** Framework Node.js pra construir a API RESTful.
-* **Axios:** Cliente HTTP baseado em Promises, para fazer requisições na API da Meteoblue.
-* **Dotenv:** Para carregar variáveis de ambiente de um arquivo `.env`.
+* **Node.js:**
+* **Express.js:**
+* **Axios:**
+* **Dotenv:**
 
 ---
 
 ## Requisitos
 
-Antes de começar, certifique de ter instalado:
+Antes de começar, certifique de ter:
 
 * **Node.js**
 * Uma **chave de API da Meteoblue**. Você pode obter fazendo o cadastro no site da [Meteoblue](https://docs.meteoblue.com/en/weather-apis/forecast-api/overview).
