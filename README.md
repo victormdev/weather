@@ -14,10 +14,10 @@ Este projeto implementa uma API intermediária em Node.js para consultar dados d
 
 ## Tecnologias utilizadas
 
-* **Node.js:**
-* **Express.js:**
-* **Axios:**
-* **Dotenv:**
+* **Node.js**
+* **Express.js**
+* **Axios**
+* **Dotenv**
 
 ---
 
