@@ -1,4 +1,4 @@
-# API Intermediária de temperatura
+# API de temperatura
 
 Este projeto implementa uma API intermediária em Node.js para consultar dados de temperatura utilizando a API da Meteoblue. Ele serve como uma camada entre o chatbot no Blip (ou qualquer cliente) e a API externa, gerenciando chaves de API e simplificando as requisições.
 
@@ -12,7 +12,7 @@ Este projeto implementa uma API intermediária em Node.js para consultar dados d
 
 ---
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 * **Node.js:** Ambiente de execução JavaScript.
 * **Express.js:** Framework Node.js pra construir a API RESTful.
@@ -23,7 +23,7 @@ Este projeto implementa uma API intermediária em Node.js para consultar dados d
 
 ## Requisitos
 
-Antes de começar, certifique-se de ter o seguinte instalado:
+Antes de começar, certifique de ter instalado:
 
 * **Node.js**
 * Uma **chave de API da Meteoblue**. Você pode obter fazendo o cadastro no site da [Meteoblue](https://docs.meteoblue.com/en/weather-apis/forecast-api/overview).
@@ -43,7 +43,7 @@ Siga estes passos para configurar e iniciar sua API:
     ```
     **Substitua `SUA_CHAVE_AQUI` pela sua chave real. Enviarei a chave real por e-mail.**
 
-2.  **Instale as Dependências:**
+2.  **Instale as dependências:**
     Na **raiz do seu projeto**, abra o terminal e execute:
 
     ```bash
@@ -51,7 +51,7 @@ Siga estes passos para configurar e iniciar sua API:
     ```
     Isso instalará todas as bibliotecas listadas no `package.json` (`express`, `axios`, `dotenv`).
 
-6.  **Inicie a API:**
+6.  **Rode a API:**
     Com as dependências instaladas, você pode iniciar o servidor na **raiz do seu projeto** executando:
 
     ```bash
@@ -70,7 +70,7 @@ A API estará disponível em `http://localhost:3000` (ou na porta configurada).
 Este endpoint permite consultar a temperatura para uma localização e período específicos.
 
 
-#### Exemplos de Requisições:
+#### Exemplos:
 
 1.  **Previsão para o dia atual (padrão):**
     ```
