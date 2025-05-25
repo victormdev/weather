@@ -6,9 +6,9 @@ Este projeto implementa uma API intermediária em Node.js para consultar dados d
 
 ## Funcionalidades
 
-* **Consulta de Previsão Diária:** Obtenha a temperatura (máxima, mínima e média) para um número de dias futuros.
-* **Gerenciamento Seguro da Chave de API:** Nossa chave da Meteoblue é armazenada em um arquivo `.env`, garantindo que ela não seja exposta no código.
-* **API Amigável:** Interface REST simples para facilitar a integração.
+* **Consulta diária:** Obtenha a temperatura (máxima, mínima e média) para um número de dias atuais ou futuros.
+* **Gerenciamento da key:** Nossa chave da Meteoblue é armazenada em um arquivo `.env`, garantindo que ela não seja exposta no código.
+* **API simples:** Interface REST simples para facilitar a integração.
 
 ---
 
